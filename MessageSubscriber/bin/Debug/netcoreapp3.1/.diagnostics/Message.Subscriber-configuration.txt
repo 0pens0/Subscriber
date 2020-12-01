@@ -1958,7 +1958,7 @@
     }
   },
   "Receiving": {
-    "LocalAddress": "Message.Subscriber@[dbo]@[Message.NServiceBus]",
+    "LocalAddress": "Message.Subscriber@[dbo]@[Message_NServiceBus]",
     "InstanceSpecificQueue": null,
     "LogicalAddress": {
       "Qualifier": null,
@@ -1967,7 +1967,7 @@
         "Discriminator": null,
         "Properties": {
           "Schema": "dbo",
-          "Catalog": "Message.NServiceBus"
+          "Catalog": "Message_NServiceBus"
         }
       }
     },

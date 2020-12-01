@@ -47,7 +47,7 @@ namespace MessageSubscriber.Configuration
             subscriptions.SubscriptionTableName(
                 tableName: "SubscriptionRouting",
                 schemaName: "dbo",
-                catalogName: "Message.NServiceBus");
+                catalogName: "Message_NServiceBus");
 
             var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
             persistence.ConnectionBuilder(() => new SqlConnection(messageSubscriberConnection));
